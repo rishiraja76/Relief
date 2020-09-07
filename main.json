@@ -1,0 +1,313 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "relief",
+            "modelConfiguration": {
+                "fallbackIntentSensitivity": {
+                    "level": "LOW"
+                }
+            },
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "Stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": [
+                        "Yes"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": [
+                        "No"
+                    ]
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": [
+                        "test"
+                    ]
+                },
+                {
+                    "name": "BadIntent",
+                    "slots": [],
+                    "samples": [
+                        "Bad",
+                        "Im not feeling well",
+                        "Im in a bad mood",
+                        "Im panicking",
+                        "Im scared",
+                        "Im worried",
+                        "Im uneasy",
+                        "Im nervous",
+                        "Im agitated",
+                        "Im distressed",
+                        "Im tense",
+                        "Im stressed",
+                        "Im panicky",
+                        "Im unconfident",
+                        "Im feeling anxious",
+                        "Im feeling panicking",
+                        "Im feeling scared",
+                        "Im feeling worried",
+                        "Im feeling uneasy",
+                        "Im feeling nervous",
+                        "Im feeling agitated",
+                        "Im feeling distressed",
+                        "Im feeling tense",
+                        "Im feeling stressed",
+                        "Im feeling panicky",
+                        "Im feeling unconfident",
+                        "I feel anxious",
+                        "I feel panicking",
+                        "I feel scared",
+                        "I feel worried",
+                        "I feel uneasy",
+                        "I feel nervous",
+                        "I feel agitated",
+                        "I feel distressed",
+                        "I feel tense",
+                        "I feel stressed",
+                        "I feel panicky",
+                        "I feel unconfident",
+                        "anxious",
+                        "panicking",
+                        "scared",
+                        "worried",
+                        "uneasy",
+                        "nervous",
+                        "agitated",
+                        "distressed",
+                        "tense",
+                        "stressed",
+                        "panicky",
+                        "unconfident",
+                        "not good",
+                        "Im not feeling good"
+                    ]
+                },
+                {
+                    "name": "GoodIntent",
+                    "slots": [],
+                    "samples": [
+                        "Good",
+                        "I am feeling happy",
+                        "I am feeling great",
+                        "I am feeling good",
+                        "I feel good",
+                        "I feel great",
+                        "I feel happy",
+                        "great",
+                        "happy"
+                    ]
+                },
+                {
+                    "name": "CallAHotlineIntent",
+                    "slots": [],
+                    "samples": [
+                        "Call a Hotline",
+                        "I need somebody to talk to",
+                        "what are some hotlines",
+                        "hotline"
+                    ]
+                },
+                {
+                    "name": "DefineAnxietyIntent",
+                    "slots": [],
+                    "samples": [
+                        "Define Anxiety",
+                        "what is anxiety",
+                        "for the definition of anxiety"
+                    ]
+                },
+                {
+                    "name": "StoryIntent",
+                    "slots": [],
+                    "samples": [
+                        "Story",
+                        "Tell me a story",
+                        "give me a story",
+                        "tell me story",
+                        "give me story",
+                        "talk to me",
+                        "i want a story",
+                        "can you tell me a story",
+                        "can you give me a story",
+                        "can you give me story",
+                        "can you tell me story",
+                        "story please",
+                        "story time",
+                        "can i have a story",
+                        "tell me something"
+                    ]
+                },
+                {
+                    "name": "ReassureMeIntent",
+                    "slots": [],
+                    "samples": [
+                        "Reassure me",
+                        "can you reassure me",
+                        "assure me",
+                        "please reassure me",
+                        "can you assure me",
+                        "please assure me",
+                        "give me confidence",
+                        "compliment me",
+                        "reassure",
+                        "assure"
+                    ]
+                },
+                {
+                    "name": "PlayMusicIntent",
+                    "slots": [],
+                    "samples": [
+                        "Play music",
+                        "play me a song",
+                        "play a song",
+                        "give me a song",
+                        "give me music",
+                        "music",
+                        "song",
+                        "play me calming music",
+                        "play me soothing music",
+                        "play me music",
+                        "play me relaxing music"
+                    ]
+                },
+                {
+                    "name": "BreathingExerciseIntent",
+                    "slots": [],
+                    "samples": [
+                        "Breathing Exercise",
+                        "help me breathe",
+                        "take me through a breathing exercise",
+                        "to help me breathe",
+                        "breathe",
+                        "to guide breathing",
+                        "to help breathe",
+                        "to help breathing",
+                        "help breathe",
+                        "help breathing",
+                        "breathing help",
+                        "a breathing exercise",
+                        "give breathing exercise",
+                        "walk me through a breathing exercise"
+                    ]
+                },
+                {
+                    "name": "MindfulnessExerciseIntent",
+                    "slots": [],
+                    "samples": [
+                        "Mindfulness Exercise",
+                        "For mindfulness",
+                        "for mindfulness exercises",
+                        "can I do a mindfulness exercise",
+                        "show me a mindfulness exercise",
+                        "mindfulness"
+                    ]
+                },
+                {
+                    "name": "GoodNewsIntent",
+                    "slots": [],
+                    "samples": [
+                        "Good news",
+                        "Give me some good news",
+                        "tell me some good news",
+                        "what is some good news",
+                        "give me good news",
+                        "tell me something good"
+                    ]
+                },
+                {
+                    "name": "OptionsIntent",
+                    "slots": [],
+                    "samples": [
+                        "Options",
+                        "Give me some options",
+                        "tell me some options",
+                        "what are some options",
+                        "what are the options",
+                        "can I get the options",
+                        "can I have some options",
+                        "can you give me the options",
+                        "can you tell me some options",
+                        "can you give me some options",
+                        "can you tell me the options",
+                        "can I get options",
+                        "can I have options",
+                        "can you say the options"
+                    ]
+                },
+                {
+                    "name": "TextLineIntent",
+                    "slots": [],
+                    "samples": [
+                        "Text Line",
+                        "crisis text line",
+                        "the text one"
+                    ]
+                },
+                {
+                    "name": "SuicidePreventionIntent",
+                    "slots": [],
+                    "samples": [
+                        "Suicide Prevention",
+                        "suicide",
+                        "the suicide one"
+                    ]
+                },
+                {
+                    "name": "SamshaIntent",
+                    "slots": [],
+                    "samples": [
+                        "Samsha",
+                        "the SAMSHA one"
+                    ]
+                },
+                {
+                    "name": "GuidedMeditationIntent",
+                    "slots": [],
+                    "samples": [
+                        "Guided Meditation",
+                        "Meditation"
+                    ]
+                },
+                {
+                    "name": "VisualizationExerciseIntent",
+                    "slots": [],
+                    "samples": [
+                        "Visualization Exercise",
+                        "give me a visualization exercise",
+                        "take me through a visualization exercise",
+                        "Visualization"
+                    ]
+                },
+                {
+                    "name": "AMAZON.ResumeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
